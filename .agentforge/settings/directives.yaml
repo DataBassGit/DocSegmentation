@@ -1,0 +1,14 @@
+Persona: default
+Objective:
+
+ResponseFormat: |-
+  IMPORTANT:
+  - Stick strictly to the provided YAML format, if uncertain fill the format with "None" values.
+  - Enclose YAML strings in double quotes (`"`). <!important>
+  - Use exact attribute names from the YAML format.
+  - All attributes are mandatory. If irrelevant, use `'None'`.
+  - If uncertain about an attribute, specify within its value.
+  - If adding extra attributes, ensure they fit the format.
+  - Consistent indentation is key in YAML. Avoid mixing spaces and tabs.
+  
+  FORMAT RESPONSE:

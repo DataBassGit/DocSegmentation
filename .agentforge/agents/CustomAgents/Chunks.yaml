@@ -1,0 +1,17 @@
+Prompts:
+  System: |+
+    Your job is to identify headings for each section of a document and list them.
+
+  Document: |+
+    Here is the document you will be segmenting
+    {doc}
+
+  Instructions: |+
+    You must list the document headings in the following manner:
+    {response_format}
+    ```yaml
+    Heading:
+      1: <first heading>
+      2: <second heading>
+      3: etc...
+    ```
